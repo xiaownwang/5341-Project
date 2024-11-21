@@ -1,0 +1,33 @@
+name: Paint-by-Example
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8.19
+  - pip=24.3.1
+#  - cudatoolkit=11.3
+  - pytorch=2.4.1
+  - torchvision=0.19.1
+  - numpy=1.24.2
+  - pip:
+    - albumentations==0.4.3
+    - diffusers
+    - bezier
+    - opencv-python==4.5.5
+    - pudb==2019.2
+    - invisible-watermark
+    - imageio==2.9.0
+    - imageio-ffmpeg==0.4.2
+    - pytorch-lightning==1.4.2
+    - omegaconf==2.1.1
+    - test-tube==0.7.5
+    - streamlit==1.38.0
+    - einops==0.3.0
+    - torch-fidelity==0.3.0
+    - transformers==4.19.2
+    - torchmetrics==0.6.0
+    - kornia==0.7.3
+    - -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
+    - -e git+https://github.com/openai/CLIP.git@main#egg=clip
+    - -e .
