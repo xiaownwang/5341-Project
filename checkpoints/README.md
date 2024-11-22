@@ -1,0 +1,1 @@
+Download the pretrained model from [Google Drive](https://drive.google.com/file/d/15QzaTWsvZonJcXsNv-ilMRCYaQLhzR_i/view) and save it to the directory `checkpoints`
