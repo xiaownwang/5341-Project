@@ -36,23 +36,6 @@ safety_model_id = "CompVis/stable-diffusion-safety-checker"
 safety_feature_extractor = AutoFeatureExtractor.from_pretrained(safety_model_id)
 safety_checker = StableDiffusionSafetyChecker.from_pretrained(safety_model_id)
 
-###############################TO DO#####################################
-## artistic style transfer
-
-
-
-
-
-
-
-## style-related data augmentations
-
-
-
-
-
-
-
 def chunk(it, size):
     it = iter(it)
     return iter(lambda: tuple(islice(it, size)), ())
@@ -306,17 +289,11 @@ def main():
                         grid = 255. * rearrange(grid, 'c h w -> h w c').cpu().numpy()
                         img = Image.fromarray(grid.astype(np.uint8))
                         img = put_watermark(img, wm_encoder)
-                        ############## Apply style transfer on generated image##########################
-
                         img.save(os.path.join(grid_path, 'grid-' + filename[:-4] + '_' + str(opt.seed) + '.png'))
 
                         x_sample = 255. * rearrange(x_sample.cpu().numpy(), 'c h w -> h w c')
                         img = Image.fromarray(x_sample.astype(np.uint8))
                         img = put_watermark(img, wm_encoder)
-                        ############## Apply style transfer on generated image##########################
-                        # generated_image = Image.fromarray(x_samples_ddim[0].astype(np.uint8))
-                        # final_image = style_transfer(generated_image, style_image_path=opt.style_image, device=device)
-
                         img.save(os.path.join(result_path, filename[:-4] + '_' + str(opt.seed) + ".png"))
 
                         mask_save = 255. * rearrange(un_norm(inpaint_mask[i]).cpu(), 'c h w -> h w c').numpy()
