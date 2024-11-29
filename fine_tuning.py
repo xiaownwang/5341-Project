@@ -71,7 +71,7 @@ if __name__ == "__main__":
     now = datetime.datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
     sys.path.append(os.getcwd())
 
-    # 1. load pretrained model
+    # load pretrained model
     parser = get_parser()
     parser = Trainer.add_argparse_args(parser)
     opt, unknown = parser.parse_known_args()
@@ -92,7 +92,7 @@ if __name__ == "__main__":
         model.load_state_dict(ckpt_file, strict=False)
         print("Load Stable Diffusion v1-4!")
 
-    # 2. Fine-tuning
+    # Fine-tuning
     '''
         layers:
         model.diffusion_model.time_embed, model.diffusion_model.input_blocks, model.diffusion_model.middle_block, 
@@ -114,7 +114,7 @@ if __name__ == "__main__":
             param.requires_grad = False  # Freeze other layers
 
 
-    # 3. Reconfigure the optimizer to train only the unfrozen layer
+    # Reconfigure the optimizer to train only the unfrozen layer
     optimizer = torch.optim.Adam(
         [param for param in model.parameters() if param.requires_grad],  # Only optimized the parameters of unfrozen layer
         lr=1e-5
@@ -257,7 +257,7 @@ if __name__ == "__main__":
     trainer_opt = argparse.Namespace(**trainer_config)
     trainer = Trainer.from_argparse_args(trainer_opt, **trainer_kwargs)
 
-    # 5. Load Data
+    # Load Data
     data = instantiate_from_config(config.data)
     data.prepare_data()
     data.setup()
@@ -267,7 +267,7 @@ if __name__ == "__main__":
     print("###########################")
 
 
-    # 6. learning rate config
+    # learning rate config
     bs, base_lr = config.data.params.batch_size, config.model.base_learning_rate
     if not cpu:
         ngpu = len(lightning_config.trainer.gpus.strip(",").split(','))
@@ -289,7 +289,7 @@ if __name__ == "__main__":
         print(f"Setting learning rate to {model.learning_rate:.2e}")
 
 
-    # 7. checkpoint functions (triggered by the USR1 signal)
+    # checkpoint functions (triggered by the USR1 signal)
     def melk(*args, **kwargs):
         if trainer.global_rank == 0:
             print("Summoning checkpoint.")
@@ -308,7 +308,6 @@ if __name__ == "__main__":
     signal.signal(signal.SIGUSR1, melk)
     signal.signal(signal.SIGUSR2, divein)
 
-    # 8. start training
     if opt.train:
         try:
             trainer.fit(model, data)
@@ -321,6 +320,5 @@ if __name__ == "__main__":
             melk()
             raise
 
-    # 9. test
     # if not opt.no_test and not trainer.interrupted:
     #     trainer.test(model, data)
