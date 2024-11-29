@@ -327,7 +327,6 @@ class OpenImageDataset(data.Dataset):
 
         return image_tensor_cropped, mask_tensor_cropped
 
-
 # # Example usage
 # dataset = OpenImageDataset(state='validation',
 #                              annotation_file='/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/COCO_O/annotations/instances_val2017.json',
@@ -343,3 +342,89 @@ class OpenImageDataset(data.Dataset):
 # print("inpaint_image shape:", sample['inpaint_image'].shape)
 # print("inpaint_mask shape:", sample['inpaint_mask'].shape)
 # print("ref_imgs shape:", sample['ref_imgs'].shape)
+
+
+class AugmentedOpenImageDataset(OpenImageDataset):
+    def __init__(self, *args, style_aug_prob=0.5, **kwargs):
+        super().__init__(*args, **kwargs)
+        """
+        Extends the OpenImageDataset class with additional style-specific augmentations to simulate artistic variations.
+
+        :param style_aug_prob: Probability of applying artistic style augmentations to a given image
+        :param args: Positional arguments passed to the base OpenImageDataset class
+        :param kwargs: Keyword arguments passed to the base OpenImageDataset class
+        """
+        # Artistic augmentations
+        self.style_aug_prob = style_aug_prob
+        self.style_augmentations = A.Compose([
+            A.OneOf([
+                # Color Adjustments: Modifies brightness, contrast, saturation, and hue
+                A.ColorJitter(brightness=0.3, contrast=0.3, saturation=0.3, hue=0.2, p=0.8),
+                A.HueSaturationValue(hue_shift_limit=20, sat_shift_limit=30, val_shift_limit=20, p=0.8),
+            ]),
+            A.OneOf([
+                # Blur Effects: Add artistic blur effects
+                A.MotionBlur(blur_limit=3, p=0.5),
+                A.GaussianBlur(blur_limit=3, p=0.5),
+                A.MedianBlur(blur_limit=3, p=0.5),
+            ]),
+            A.OneOf([
+                # Geometric Distortions: Warp the image to simulate hand-drawn or abstract effects
+                A.ElasticTransform(alpha=120, sigma=120 * 0.05, alpha_affine=120 * 0.03, p=0.5),
+                A.GridDistortion(num_steps=5, distort_limit=0.3, p=0.5),
+                A.OpticalDistortion(distort_limit=0.5, shift_limit=0.5, p=0.5),
+            ]),
+            A.ToGray(p=0.2),  # Convert to grayscale with a small probability
+        ])
+
+    def __getitem__(self, index):
+        """
+        Retrieves a single sample from the dataset and applies optional style augmentations.
+        """
+        sample = super().__getitem__(index)
+
+        if random.random() < self.style_aug_prob:
+            # Apply artistic augmentations
+            sample["GT"] = self.apply_style_augmentations(sample["GT"])
+            sample["inpaint_image"] = self.apply_style_augmentations(sample["inpaint_image"])
+        
+        return sample
+
+    def apply_style_augmentations(self, image_tensor):
+        """
+        Apply style-specific augmentations to an image tensor.
+        """
+        image_np = image_tensor.permute(1, 2, 0).numpy() * 255  # Convert tensor to numpy
+        image_np = image_np.astype(np.uint8)
+        
+        augmented = self.style_augmentations(image=image_np)
+        image_aug = augmented["image"]
+
+        image_tensor_aug = torch.from_numpy(image_aug).permute(2, 0, 1).float() / 255.0
+        return image_tensor_aug
+
+# # Example usage
+# augmented_dataset = AugmentedOpenImageDataset(
+#     state='train',
+#     annotation_file='path/to/annotations.json',
+#     coco_root='path/to/images',
+#     arbitrary_mask_percent=0.5,
+#     image_size=224,
+#     style_aug_prob=0.7  # prob of applying style augmentations
+# )
+
+# print("Dataset length:", len(augmented_dataset))
+
+# # fetch a sample
+# sample_index = 0  # ex index
+# sample = augmented_dataset[sample_index]
+
+# print("GT shape:", sample['GT'].shape)              
+# print("inpaint_image shape:", sample['inpaint_image'].shape)
+# print("inpaint_mask shape:", sample['inpaint_mask'].shape)
+# print("ref_imgs shape:", sample['ref_imgs'].shape)
+
+# # test artistic augmentations (applied probabilistically)
+# if 'GT_augmented' in sample:
+#     print("Augmented ground truth shape:", sample['GT_augmented'].shape)
+
