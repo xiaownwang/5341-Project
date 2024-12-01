@@ -347,3 +347,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+    #################TODO#################
+    # load generated images from result folder, and calculate FID, QS, CLIP score
+
+
