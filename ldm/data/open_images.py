@@ -11,6 +11,9 @@ import numpy as np
 from torch.utils import data
 from sklearn.model_selection import train_test_split
 import albumentations as A
+from torchvision.transforms import ColorJitter
+
+
 
 class OpenImageDataset(data.Dataset):
     def __init__(self, state, arbitrary_mask_percent=0, annotation_file=None, coco_root=None, image_size=224, **args):
@@ -356,10 +359,12 @@ class AugmentedOpenImageDataset(OpenImageDataset):
         """
         # Artistic augmentations
         self.style_aug_prob = style_aug_prob
+        self.color_jitter = ColorJitter(brightness=0.3, contrast=0.3, saturation=0.3, hue=0.2)
+        # A.RandomBrightnessContrast(brightness_limit=0.3, contrast_limit=0.3, p=0.8)
         self.style_augmentations = A.Compose([
             A.OneOf([
                 # Color Adjustments: Modifies brightness, contrast, saturation, and hue
-                A.ColorJitter(brightness=0.3, contrast=0.3, saturation=0.3, hue=0.2, p=0.8),
+                # A.ColorJitter(brightness=0.3, contrast=0.3, saturation=0.3, hue=0.2, p=0.8),
                 A.HueSaturationValue(hue_shift_limit=20, sat_shift_limit=30, val_shift_limit=20, p=0.8),
             ]),
             A.OneOf([
@@ -394,6 +399,8 @@ class AugmentedOpenImageDataset(OpenImageDataset):
         """
         Apply style-specific augmentations to an image tensor.
         """
+        image_tensor = self.color_jitter(image_tensor)
+
         image_np = image_tensor.permute(1, 2, 0).numpy() * 255  # Convert tensor to numpy
         image_np = image_np.astype(np.uint8)
         
