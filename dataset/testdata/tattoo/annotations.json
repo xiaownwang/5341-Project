@@ -1,0 +1,1140 @@
+{
+    "images": [
+        {
+            "license": 0,
+            "file_name": "000000000201.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_umbrella_4a44b0dc01a4cb32b20736f23d570c6e.jpeg",
+            "height": 1032,
+            "width": 774,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_umbrella_4a44b0dc01a4cb32b20736f23d570c6e.jpeg",
+            "id": 201
+        },
+        {
+            "license": 0,
+            "file_name": "000000000202.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_cat_4c5bdb8913fa3a2f3a61a27b5d3d9a5f.jpeg",
+            "height": 934,
+            "width": 1400,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_cat_4c5bdb8913fa3a2f3a61a27b5d3d9a5f.jpeg",
+            "id": 202
+        },
+        {
+            "license": 0,
+            "file_name": "000000000203.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_skateboard_bc42696920a2f674e5d5fc03145a8a93.jpeg",
+            "height": 236,
+            "width": 236,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_skateboard_bc42696920a2f674e5d5fc03145a8a93.jpeg",
+            "id": 203
+        },
+        {
+            "license": 0,
+            "file_name": "000000000204.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_bowl_1efc6915cce6b3e0df5c55519ae9f025.jpeg",
+            "height": 1080,
+            "width": 1080,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_bowl_1efc6915cce6b3e0df5c55519ae9f025.jpeg",
+            "id": 204
+        },
+        {
+            "license": 0,
+            "file_name": "000000000205.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_book_3b6ee40f2e12699ea31f3520dff3b1f4.jpeg",
+            "height": 1277,
+            "width": 800,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_book_3b6ee40f2e12699ea31f3520dff3b1f4.jpeg",
+            "id": 205
+        },
+        {
+            "license": 0,
+            "file_name": "000000000206.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_horse_da00c2f1194c1fa08e24fa810ecb4d56.jpeg",
+            "height": 736,
+            "width": 736,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_horse_da00c2f1194c1fa08e24fa810ecb4d56.jpeg",
+            "id": 206
+        },
+        {
+            "license": 0,
+            "file_name": "000000000207.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_apple_1c51a0f9547ab042c65c1470ef4080ba.jpeg",
+            "height": 539,
+            "width": 540,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_apple_1c51a0f9547ab042c65c1470ef4080ba.jpeg",
+            "id": 207
+        },
+        {
+            "license": 0,
+            "file_name": "000000000208.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_cat_6abf2cf5f45575acbd4fbb73e4a5d6a4.jpeg",
+            "height": 721,
+            "width": 600,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_cat_6abf2cf5f45575acbd4fbb73e4a5d6a4.jpeg",
+            "id": 208
+        },
+        {
+            "license": 0,
+            "file_name": "000000000209.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_horse_d4ee2fe741de2b19d99fac094f44be8e.jpeg",
+            "height": 561,
+            "width": 500,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_horse_d4ee2fe741de2b19d99fac094f44be8e.jpeg",
+            "id": 209
+        },
+        {
+            "license": 0,
+            "file_name": "000000000210.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_bicycle_c2b53aa332854b1934557601f864f9cb.jpeg",
+            "height": 960,
+            "width": 1280,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_bicycle_c2b53aa332854b1934557601f864f9cb.jpeg",
+            "id": 210
+        },
+        {
+            "license": 0,
+            "file_name": "000000000211.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_umbrella_71aa692dc1d1105aa86cbd630119a4b6.jpeg",
+            "height": 425,
+            "width": 236,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_umbrella_71aa692dc1d1105aa86cbd630119a4b6.jpeg",
+            "id": 211
+        },
+        {
+            "license": 0,
+            "file_name": "000000000212.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_tennis_racket_9b47eabe7c0347964e59db79e154ac46.jpeg",
+            "height": 772,
+            "width": 628,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_tennis_racket_9b47eabe7c0347964e59db79e154ac46.jpeg",
+            "id": 212
+        },
+        {
+            "license": 0,
+            "file_name": "000000000213.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_wine_glass_50cc0ba8d82fdb790d5d4b099e10ae09.jpeg",
+            "height": 1000,
+            "width": 932,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_wine_glass_50cc0ba8d82fdb790d5d4b099e10ae09.jpeg",
+            "id": 213
+        },
+        {
+            "license": 0,
+            "file_name": "000000000214.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_hot_dog_05005ec010557b5bf16fafbcec0e1962.jpeg",
+            "height": 693,
+            "width": 640,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_hot_dog_05005ec010557b5bf16fafbcec0e1962.jpeg",
+            "id": 214
+        },
+        {
+            "license": 0,
+            "file_name": "000000000215.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_toilet_2058dd7ec2a0d064ed2e69a719cd16c8.jpeg",
+            "height": 450,
+            "width": 258,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_toilet_2058dd7ec2a0d064ed2e69a719cd16c8.jpeg",
+            "id": 215
+        },
+        {
+            "license": 0,
+            "file_name": "000000000216.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_airplane_7234eb19acb2fd5ee9522680ca0efd0a.jpeg",
+            "height": 318,
+            "width": 216,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_airplane_7234eb19acb2fd5ee9522680ca0efd0a.jpeg",
+            "id": 216
+        },
+        {
+            "license": 0,
+            "file_name": "000000000217.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_car_62d0f7aa614d3c6a8d3e90ba9d080868.jpeg",
+            "height": 650,
+            "width": 765,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_car_62d0f7aa614d3c6a8d3e90ba9d080868.jpeg",
+            "id": 217
+        },
+        {
+            "license": 0,
+            "file_name": "000000000218.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_toilet_0af9d66ac487efd2c4c12a407430040d.jpeg",
+            "height": 460,
+            "width": 613,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_toilet_0af9d66ac487efd2c4c12a407430040d.jpeg",
+            "id": 218
+        },
+        {
+            "license": 0,
+            "file_name": "000000000219.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_spoon_d562d634901e519625765094b70a0170.jpeg",
+            "height": 750,
+            "width": 750,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_spoon_d562d634901e519625765094b70a0170.jpeg",
+            "id": 219
+        },
+        {
+            "license": 0,
+            "file_name": "000000000220.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_toilet_f5c6303228259c5a0acdba9ba6d65459.jpeg",
+            "height": 432,
+            "width": 768,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/tatto/tatto_toilet_f5c6303228259c5a0acdba9ba6d65459.jpeg",
+            "id": 220
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "area": 28233.07730671562,
+            "iscrowd": 0,
+            "image_id": 201,
+            "bbox": [
+                73.59802654388717,
+                378.3694758541648,
+                189.67980209723993,
+                148.84598673422195
+            ],
+            "category_id": 28,
+            "id": 359
+        },
+        {
+            "segmentation": [],
+            "area": 52308.629180965,
+            "iscrowd": 0,
+            "image_id": 201,
+            "bbox": [
+                182.7668354623977,
+                465.3372404795335,
+                169.78976043780278,
+                308.0788208080819
+            ],
+            "category_id": 1,
+            "id": 360
+        },
+        {
+            "segmentation": [],
+            "area": 75841.90118492908,
+            "iscrowd": 0,
+            "image_id": 202,
+            "bbox": [
+                557.782687495347,
+                290.8291929031538,
+                300.9999934760008,
+                251.96645458059146
+            ],
+            "category_id": 17,
+            "id": 361
+        },
+        {
+            "segmentation": [],
+            "area": 474.4611150151537,
+            "iscrowd": 0,
+            "image_id": 203,
+            "bbox": [
+                83.15450479660026,
+                128.36665788060233,
+                25.00167376817881,
+                18.977174065003197
+            ],
+            "category_id": 41,
+            "id": 362
+        },
+        {
+            "segmentation": [],
+            "area": 646.4974528831864,
+            "iscrowd": 0,
+            "image_id": 203,
+            "bbox": [
+                79.2385799895361,
+                111.47066740062196,
+                22.59187388690856,
+                28.61637136075799
+            ],
+            "category_id": 1,
+            "id": 363
+        },
+        {
+            "segmentation": [],
+            "area": 509.5760975988731,
+            "iscrowd": 0,
+            "image_id": 203,
+            "bbox": [
+                116.59047814922492,
+                102.73514351154851,
+                23.49554884238491,
+                21.688197241837603
+            ],
+            "category_id": 41,
+            "id": 364
+        },
+        {
+            "segmentation": [],
+            "area": 450.77885556823486,
+            "iscrowd": 0,
+            "image_id": 203,
+            "bbox": [
+                107.5537285944615,
+                93.09594473739844,
+                20.784523975955896,
+                21.688197241837635
+            ],
+            "category_id": 1,
+            "id": 365
+        },
+        {
+            "segmentation": [],
+            "area": 431.1797748913545,
+            "iscrowd": 0,
+            "image_id": 203,
+            "bbox": [
+                145.80930170962668,
+                84.96287077170933,
+                21.68819893143221,
+                19.880847471684497
+            ],
+            "category_id": 41,
+            "id": 366
+        },
+        {
+            "segmentation": [],
+            "area": 421.01728861445355,
+            "iscrowd": 0,
+            "image_id": 203,
+            "bbox": [
+                140.9897019470862,
+                71.40774749556081,
+                17.471049139209274,
+                24.09799693537514
+            ],
+            "category_id": 1,
+            "id": 367
+        },
+        {
+            "segmentation": [],
+            "area": 500.6839221065846,
+            "iscrowd": 0,
+            "image_id": 203,
+            "bbox": [
+                171.71465043328186,
+                75.92612192094366,
+                26.809023679131464,
+                18.67594762491572
+            ],
+            "category_id": 41,
+            "id": 368
+        },
+        {
+            "segmentation": [],
+            "area": 587.9724203063928,
+            "iscrowd": 0,
+            "image_id": 203,
+            "bbox": [
+                169.60607553717037,
+                59.659973989565444,
+                21.688198931432233,
+                27.11024655229703
+            ],
+            "category_id": 1,
+            "id": 369
+        },
+        {
+            "segmentation": [],
+            "area": 10102.991893558605,
+            "iscrowd": 0,
+            "image_id": 204,
+            "bbox": [
+                535.6466230814235,
+                440.3846291590819,
+                111.22533675567307,
+                90.83354735757453
+            ],
+            "category_id": 51,
+            "id": 370
+        },
+        {
+            "segmentation": [],
+            "area": 151454.18537918624,
+            "iscrowd": 0,
+            "image_id": 205,
+            "bbox": [
+                267.1715200111227,
+                862.8093979937511,
+                380.53975601707015,
+                397.99832470695213
+            ],
+            "category_id": 84,
+            "id": 371
+        },
+        {
+            "segmentation": [],
+            "area": 679385.0076029554,
+            "iscrowd": 0,
+            "image_id": 205,
+            "bbox": [
+                58.824888499919815,
+                19.408960252336424,
+                701.5601700361206,
+                968.3916456773431
+            ],
+            "category_id": 16,
+            "id": 372
+        },
+        {
+            "segmentation": [],
+            "area": 12560.473306925032,
+            "iscrowd": 0,
+            "image_id": 206,
+            "bbox": [
+                382.88964465947066,
+                306.0079980465077,
+                130.93578296872244,
+                95.92850038499745
+            ],
+            "category_id": 19,
+            "id": 373
+        },
+        {
+            "segmentation": [],
+            "area": 11568.853244052843,
+            "iscrowd": 0,
+            "image_id": 206,
+            "bbox": [
+                285.04752112240345,
+                272.8400911270603,
+                91.36727712652602,
+                126.61921869502818
+            ],
+            "category_id": 19,
+            "id": 374
+        },
+        {
+            "segmentation": [],
+            "area": 11420.707371019955,
+            "iscrowd": 0,
+            "image_id": 207,
+            "bbox": [
+                206.14644644412908,
+                219.62629973027072,
+                111.41380729660472,
+                102.5071097392432
+            ],
+            "category_id": 53,
+            "id": 375
+        },
+        {
+            "segmentation": [],
+            "area": 107667.23798994858,
+            "iscrowd": 0,
+            "image_id": 208,
+            "bbox": [
+                202.25945296028647,
+                235.99777700718002,
+                269.06383857148626,
+                400.15499132687427
+            ],
+            "category_id": 17,
+            "id": 376
+        },
+        {
+            "segmentation": [],
+            "area": 10380.145172601173,
+            "iscrowd": 0,
+            "image_id": 209,
+            "bbox": [
+                406.24938568906884,
+                255.55426689514326,
+                60.64150359650586,
+                171.17229219229438
+            ],
+            "category_id": 18,
+            "id": 377
+        },
+        {
+            "segmentation": [],
+            "area": 22208.7024797767,
+            "iscrowd": 0,
+            "image_id": 209,
+            "bbox": [
+                291.6503883663966,
+                337.71281616659996,
+                122.43620354560537,
+                181.38999606847776
+            ],
+            "category_id": 19,
+            "id": 378
+        },
+        {
+            "segmentation": [],
+            "area": 190248.857286732,
+            "iscrowd": 0,
+            "image_id": 210,
+            "bbox": [
+                521.168821869404,
+                341.1363695591933,
+                495.99482795916765,
+                383.5702442090668
+            ],
+            "category_id": 2,
+            "id": 379
+        },
+        {
+            "segmentation": [],
+            "area": 5812.010145486651,
+            "iscrowd": 0,
+            "image_id": 211,
+            "bbox": [
+                121.19619298497189,
+                110.64891448203909,
+                82.05190971470931,
+                70.83333179806223
+            ],
+            "category_id": 28,
+            "id": 380
+        },
+        {
+            "segmentation": [],
+            "area": 8413.95319880188,
+            "iscrowd": 0,
+            "image_id": 211,
+            "bbox": [
+                126.1617658445375,
+                170.0845172892661,
+                50.91264224238789,
+                165.26255225066183
+            ],
+            "category_id": 1,
+            "id": 381
+        },
+        {
+            "segmentation": [],
+            "area": 5287.067492674642,
+            "iscrowd": 0,
+            "image_id": 212,
+            "bbox": [
+                269.14402602940453,
+                468.7886257751383,
+                70.06294799706558,
+                75.46167616150092
+            ],
+            "category_id": 37,
+            "id": 382
+        },
+        {
+            "segmentation": [],
+            "area": 120879.90036084352,
+            "iscrowd": 0,
+            "image_id": 212,
+            "bbox": [
+                65.81980594590559,
+                286.54955026707034,
+                484.26861404643756,
+                249.6133279231102
+            ],
+            "category_id": 43,
+            "id": 383
+        },
+        {
+            "segmentation": [],
+            "area": 5252.9671189440005,
+            "iscrowd": 0,
+            "image_id": 213,
+            "bbox": [
+                350.50272756699934,
+                477.605910145493,
+                49.42247792421687,
+                106.28700420482281
+            ],
+            "category_id": 46,
+            "id": 384
+        },
+        {
+            "segmentation": [],
+            "area": 31063.831647402756,
+            "iscrowd": 0,
+            "image_id": 214,
+            "bbox": [
+                258.2552411910751,
+                272.82281619976175,
+                161.57037178112165,
+                192.26193085378753
+            ],
+            "category_id": 54,
+            "id": 385
+        },
+        {
+            "segmentation": [],
+            "area": 71096.91299918656,
+            "iscrowd": 0,
+            "image_id": 214,
+            "bbox": [
+                180.04031041538448,
+                182.6278149503401,
+                230.5459556728461,
+                308.3849933159353
+            ],
+            "category_id": 18,
+            "id": 386
+        },
+        {
+            "segmentation": [],
+            "area": 11735.61274434763,
+            "iscrowd": 0,
+            "image_id": 214,
+            "bbox": [
+                304.41615782657675,
+                481.772808466547,
+                101.55401659810383,
+                115.56030118228483
+            ],
+            "category_id": 37,
+            "id": 387
+        },
+        {
+            "segmentation": [],
+            "area": 37388.98803196653,
+            "iscrowd": 0,
+            "image_id": 215,
+            "bbox": [
+                38.008346505698135,
+                177.29403492983832,
+                154.3405112171353,
+                242.24999474937277
+            ],
+            "category_id": 70,
+            "id": 388
+        },
+        {
+            "segmentation": [],
+            "area": 14463.168047153116,
+            "iscrowd": 0,
+            "image_id": 216,
+            "bbox": [
+                38.40495896355929,
+                48.34142381795052,
+                119.1659253574511,
+                121.36999736937616
+            ],
+            "category_id": 5,
+            "id": 389
+        },
+        {
+            "segmentation": [],
+            "area": 23063.46022452374,
+            "iscrowd": 0,
+            "image_id": 216,
+            "bbox": [
+                32.57645359842248,
+                167.01323795723403,
+                167.36909088832206,
+                137.79999701326548
+            ],
+            "category_id": 5,
+            "id": 390
+        },
+        {
+            "segmentation": [],
+            "area": 44860.67245150454,
+            "iscrowd": 0,
+            "image_id": 217,
+            "bbox": [
+                195.68411005001494,
+                253.72774972927758,
+                379.87522528457293,
+                118.09317761614598
+            ],
+            "category_id": 3,
+            "id": 391
+        },
+        {
+            "segmentation": [],
+            "area": 30733.989821963783,
+            "iscrowd": 0,
+            "image_id": 218,
+            "bbox": [
+                143.6766234899415,
+                183.39450998173675,
+                154.77920339821253,
+                198.5666623628502
+            ],
+            "category_id": 70,
+            "id": 392
+        },
+        {
+            "segmentation": [],
+            "area": 15689.936110366334,
+            "iscrowd": 0,
+            "image_id": 219,
+            "bbox": [
+                329.0942880093871,
+                261.62340610581407,
+                76.35535471737334,
+                205.48573401881347
+            ],
+            "category_id": 48,
+            "id": 393
+        },
+        {
+            "segmentation": [],
+            "area": 15938.004877716834,
+            "iscrowd": 0,
+            "image_id": 219,
+            "bbox": [
+                344.81450809825805,
+                260.44949200910276,
+                77.35124361506905,
+                206.04717045055884
+            ],
+            "category_id": 50,
+            "id": 394
+        },
+        {
+            "segmentation": [],
+            "area": 22709.374748173923,
+            "iscrowd": 0,
+            "image_id": 220,
+            "bbox": [
+                119.73820052974436,
+                138.44183255991695,
+                134.40680457095343,
+                168.96000779622457
+            ],
+            "category_id": 70,
+            "id": 395
+        },
+        {
+            "segmentation": [],
+            "area": 44686.21967648851,
+            "iscrowd": 0,
+            "image_id": 220,
+            "bbox": [
+                530.6181916241605,
+                75.95455428597735,
+                171.84532926063156,
+                260.0374410451072
+            ],
+            "category_id": 70,
+            "id": 396
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "person",
+            "id": 1,
+            "name": "person"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 2,
+            "name": "bicycle"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 3,
+            "name": "car"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 4,
+            "name": "motorcycle"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 5,
+            "name": "airplane"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 6,
+            "name": "bus"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 7,
+            "name": "train"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 8,
+            "name": "truck"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 9,
+            "name": "boat"
+        },
+        {
+            "supercategory": "outdoor",
+            "id": 10,
+            "name": "traffic light"
+        },
+        {
+            "supercategory": "outdoor",
+            "id": 11,
+            "name": "fire hydrant"
+        },
+        {
+            "supercategory": "outdoor",
+            "id": 13,
+            "name": "stop sign"
+        },
+        {
+            "supercategory": "outdoor",
+            "id": 14,
+            "name": "parking meter"
+        },
+        {
+            "supercategory": "outdoor",
+            "id": 15,
+            "name": "bench"
+        },
+        {
+            "supercategory": "animal",
+            "id": 16,
+            "name": "bird"
+        },
+        {
+            "supercategory": "animal",
+            "id": 17,
+            "name": "cat"
+        },
+        {
+            "supercategory": "animal",
+            "id": 18,
+            "name": "dog"
+        },
+        {
+            "supercategory": "animal",
+            "id": 19,
+            "name": "horse"
+        },
+        {
+            "supercategory": "animal",
+            "id": 20,
+            "name": "sheep"
+        },
+        {
+            "supercategory": "animal",
+            "id": 21,
+            "name": "cow"
+        },
+        {
+            "supercategory": "animal",
+            "id": 22,
+            "name": "elephant"
+        },
+        {
+            "supercategory": "animal",
+            "id": 23,
+            "name": "bear"
+        },
+        {
+            "supercategory": "animal",
+            "id": 24,
+            "name": "zebra"
+        },
+        {
+            "supercategory": "animal",
+            "id": 25,
+            "name": "giraffe"
+        },
+        {
+            "supercategory": "accessory",
+            "id": 27,
+            "name": "backpack"
+        },
+        {
+            "supercategory": "accessory",
+            "id": 28,
+            "name": "umbrella"
+        },
+        {
+            "supercategory": "accessory",
+            "id": 31,
+            "name": "handbag"
+        },
+        {
+            "supercategory": "accessory",
+            "id": 32,
+            "name": "tie"
+        },
+        {
+            "supercategory": "accessory",
+            "id": 33,
+            "name": "suitcase"
+        },
+        {
+            "supercategory": "sports",
+            "id": 34,
+            "name": "frisbee"
+        },
+        {
+            "supercategory": "sports",
+            "id": 35,
+            "name": "skis"
+        },
+        {
+            "supercategory": "sports",
+            "id": 36,
+            "name": "snowboard"
+        },
+        {
+            "supercategory": "sports",
+            "id": 37,
+            "name": "sports ball"
+        },
+        {
+            "supercategory": "sports",
+            "id": 38,
+            "name": "kite"
+        },
+        {
+            "supercategory": "sports",
+            "id": 39,
+            "name": "baseball bat"
+        },
+        {
+            "supercategory": "sports",
+            "id": 40,
+            "name": "baseball glove"
+        },
+        {
+            "supercategory": "sports",
+            "id": 41,
+            "name": "skateboard"
+        },
+        {
+            "supercategory": "sports",
+            "id": 42,
+            "name": "surfboard"
+        },
+        {
+            "supercategory": "sports",
+            "id": 43,
+            "name": "tennis racket"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 44,
+            "name": "bottle"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 46,
+            "name": "wine glass"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 47,
+            "name": "cup"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 48,
+            "name": "fork"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 49,
+            "name": "knife"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 50,
+            "name": "spoon"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 51,
+            "name": "bowl"
+        },
+        {
+            "supercategory": "food",
+            "id": 52,
+            "name": "banana"
+        },
+        {
+            "supercategory": "food",
+            "id": 53,
+            "name": "apple"
+        },
+        {
+            "supercategory": "food",
+            "id": 54,
+            "name": "sandwich"
+        },
+        {
+            "supercategory": "food",
+            "id": 55,
+            "name": "orange"
+        },
+        {
+            "supercategory": "food",
+            "id": 56,
+            "name": "broccoli"
+        },
+        {
+            "supercategory": "food",
+            "id": 57,
+            "name": "carrot"
+        },
+        {
+            "supercategory": "food",
+            "id": 58,
+            "name": "hot dog"
+        },
+        {
+            "supercategory": "food",
+            "id": 59,
+            "name": "pizza"
+        },
+        {
+            "supercategory": "food",
+            "id": 60,
+            "name": "donut"
+        },
+        {
+            "supercategory": "food",
+            "id": 61,
+            "name": "cake"
+        },
+        {
+            "supercategory": "furniture",
+            "id": 62,
+            "name": "chair"
+        },
+        {
+            "supercategory": "furniture",
+            "id": 63,
+            "name": "couch"
+        },
+        {
+            "supercategory": "furniture",
+            "id": 64,
+            "name": "potted plant"
+        },
+        {
+            "supercategory": "furniture",
+            "id": 65,
+            "name": "bed"
+        },
+        {
+            "supercategory": "furniture",
+            "id": 67,
+            "name": "dining table"
+        },
+        {
+            "supercategory": "furniture",
+            "id": 70,
+            "name": "toilet"
+        },
+        {
+            "supercategory": "electronic",
+            "id": 72,
+            "name": "tv"
+        },
+        {
+            "supercategory": "electronic",
+            "id": 73,
+            "name": "laptop"
+        },
+        {
+            "supercategory": "electronic",
+            "id": 74,
+            "name": "mouse"
+        },
+        {
+            "supercategory": "electronic",
+            "id": 75,
+            "name": "remote"
+        },
+        {
+            "supercategory": "electronic",
+            "id": 76,
+            "name": "keyboard"
+        },
+        {
+            "supercategory": "electronic",
+            "id": 77,
+            "name": "cell phone"
+        },
+        {
+            "supercategory": "appliance",
+            "id": 78,
+            "name": "microwave"
+        },
+        {
+            "supercategory": "appliance",
+            "id": 79,
+            "name": "oven"
+        },
+        {
+            "supercategory": "appliance",
+            "id": 80,
+            "name": "toaster"
+        },
+        {
+            "supercategory": "appliance",
+            "id": 81,
+            "name": "sink"
+        },
+        {
+            "supercategory": "appliance",
+            "id": 82,
+            "name": "refrigerator"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 84,
+            "name": "book"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 85,
+            "name": "clock"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 86,
+            "name": "vase"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 87,
+            "name": "scissors"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 88,
+            "name": "teddy bear"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 89,
+            "name": "hair drier"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 90,
+            "name": "toothbrush"
+        }
+    ]
+}
