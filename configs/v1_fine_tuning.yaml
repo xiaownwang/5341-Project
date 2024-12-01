@@ -78,7 +78,7 @@ data:
       batch_size: 4
       wrap: False
       train:
-          target: ldm.data.open_images.OpenImageDataset
+          target: ldm.data.open_images.AugmentedOpenImageDataset # OpenImageDataset
           params:
               state: train
               dataset_dir: dataset/COCO_O
@@ -86,8 +86,9 @@ data:
               image_size: 224
               annotation_file: null
               coco_root: null
+              style_aug_prob: 0.7  # Probability of applying style augmentations
       validation:
-          target: ldm.data.open_images.OpenImageDataset
+          target: ldm.data.open_images.AugmentedOpenImageDataset # OpenImageDataset
           params:
               state: validation
               dataset_dir: dataset/COCO_O
@@ -95,8 +96,9 @@ data:
               image_size: 224
               annotation_file: null
               coco_root: null
+              style_aug_prob: 0.7  # Probability of applying style augmentations
       test:
-          target: ldm.data.open_images.OpenImageDataset
+          target: ldm.data.open_images.AugmentedOpenImageDataset # OpenImageDataset
           params:
               state: test
               dataset_dir: dataset/COCO_O
@@ -104,6 +106,7 @@ data:
               image_size: 224
               annotation_file: null
               coco_root: null
+              style_aug_prob: 0.7  # Probability of applying style augmentations
 
 lightning:
   trainer:
