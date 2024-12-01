@@ -7,3 +7,8 @@ python -u fine_tuning_test.py \
 --reference_folder dataset/testdata/reference \
 --seed 321 \
 --scale 5
+
+
+##################TODO########################
+# add more code to test different type of images
+
