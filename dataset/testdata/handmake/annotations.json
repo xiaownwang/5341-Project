@@ -1,0 +1,1322 @@
+{
+    "images": [
+        {
+            "license": 0,
+            "file_name": "000000000201.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_bench_e46f0cead002e2fcbef98ac4487fac62.jpeg",
+            "height": 961,
+            "width": 1280,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_bench_e46f0cead002e2fcbef98ac4487fac62.jpeg",
+            "id": 201
+        },
+        {
+            "license": 0,
+            "file_name": "000000000202.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_bear_febd585518731abd069d412ceadbf544.jpeg",
+            "height": 480,
+            "width": 640,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_bear_febd585518731abd069d412ceadbf544.jpeg",
+            "id": 202
+        },
+        {
+            "license": 0,
+            "file_name": "000000000203.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/toy_hair_drier_510e700354c222b22e93d6022690d8eb.jpeg",
+            "height": 500,
+            "width": 500,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/toy_hair_drier_510e700354c222b22e93d6022690d8eb.jpeg",
+            "id": 203
+        },
+        {
+            "license": 0,
+            "file_name": "000000000204.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_zebra_c057b1632e135e010f294b4b1408c1cb.jpeg",
+            "height": 600,
+            "width": 600,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_zebra_c057b1632e135e010f294b4b1408c1cb.jpeg",
+            "id": 204
+        },
+        {
+            "license": 0,
+            "file_name": "000000000205.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_elephant_5b89b7406bd5c6f75b1515040939d7a5.jpeg",
+            "height": 1512,
+            "width": 2016,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_elephant_5b89b7406bd5c6f75b1515040939d7a5.jpeg",
+            "id": 205
+        },
+        {
+            "license": 0,
+            "file_name": "000000000206.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/toy_tv_5d3c57c2928d8ccd2de9df9a712aa89d.jpeg",
+            "height": 800,
+            "width": 800,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/toy_tv_5d3c57c2928d8ccd2de9df9a712aa89d.jpeg",
+            "id": 206
+        },
+        {
+            "license": 0,
+            "file_name": "000000000207.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_teddy_bear_b97e74ee835e03d20feda73007b18cc2.jpeg",
+            "height": 600,
+            "width": 600,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_teddy_bear_b97e74ee835e03d20feda73007b18cc2.jpeg",
+            "id": 207
+        },
+        {
+            "license": 0,
+            "file_name": "000000000208.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_airplane_3824df86f8463a75c6231f19812fa0a2.jpeg",
+            "height": 2165,
+            "width": 800,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_airplane_3824df86f8463a75c6231f19812fa0a2.jpeg",
+            "id": 208
+        },
+        {
+            "license": 0,
+            "file_name": "000000000209.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/toy_sheep_7cd09bf4bec63d3160eed30431f4a606.jpeg",
+            "height": 400,
+            "width": 616,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/toy_sheep_7cd09bf4bec63d3160eed30431f4a606.jpeg",
+            "id": 209
+        },
+        {
+            "license": 0,
+            "file_name": "000000000210.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_couch_ca8c98e696e311fd5b6ecad208d76a69.jpeg",
+            "height": 900,
+            "width": 600,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_couch_ca8c98e696e311fd5b6ecad208d76a69.jpeg",
+            "id": 210
+        },
+        {
+            "license": 0,
+            "file_name": "000000000211.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_fire_hydrant_7f9eaa1cc60db27e13119f3b51e69f2e.jpeg",
+            "height": 633,
+            "width": 950,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_fire_hydrant_7f9eaa1cc60db27e13119f3b51e69f2e.jpeg",
+            "id": 211
+        },
+        {
+            "license": 0,
+            "file_name": "000000000212.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_truck_ef344554c1471ff4058379b8ee1afab5.jpeg",
+            "height": 300,
+            "width": 225,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_truck_ef344554c1471ff4058379b8ee1afab5.jpeg",
+            "id": 212
+        },
+        {
+            "license": 0,
+            "file_name": "000000000213.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_train_9707b688b68fd2786f7273c80886d8a2.jpeg",
+            "height": 316,
+            "width": 375,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_train_9707b688b68fd2786f7273c80886d8a2.jpeg",
+            "id": 213
+        },
+        {
+            "license": 0,
+            "file_name": "000000000214.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/toy_skateboard_d530f0a96007541134bb760cc8b47d5f.jpeg",
+            "height": 480,
+            "width": 640,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/toy_skateboard_d530f0a96007541134bb760cc8b47d5f.jpeg",
+            "id": 214
+        },
+        {
+            "license": 0,
+            "file_name": "000000000215.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_sports_ball_d17b088c56549237a93512a0bc1ef2ec.jpeg",
+            "height": 720,
+            "width": 1280,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_sports_ball_d17b088c56549237a93512a0bc1ef2ec.jpeg",
+            "id": 215
+        },
+        {
+            "license": 0,
+            "file_name": "000000000216.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/toy_skis_0911d74edf70da552f014340335072ed.jpeg",
+            "height": 2400,
+            "width": 2400,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/toy_skis_0911d74edf70da552f014340335072ed.jpeg",
+            "id": 216
+        },
+        {
+            "license": 0,
+            "file_name": "000000000217.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_apple_854cddcd18f8b1f60178865640069323.jpeg",
+            "height": 720,
+            "width": 1280,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_apple_854cddcd18f8b1f60178865640069323.jpeg",
+            "id": 217
+        },
+        {
+            "license": 0,
+            "file_name": "000000000218.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/toy_scissors_2c0640590fe38c27320279224310b9d1.jpeg",
+            "height": 1002,
+            "width": 1002,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/toy_scissors_2c0640590fe38c27320279224310b9d1.jpeg",
+            "id": 218
+        },
+        {
+            "license": 0,
+            "file_name": "000000000219.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_car_9f458f6f9d75540b61b4f7c33c8dd6d6.jpeg",
+            "height": 720,
+            "width": 1280,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/origami_car_9f458f6f9d75540b61b4f7c33c8dd6d6.jpeg",
+            "id": 219
+        },
+        {
+            "license": 0,
+            "file_name": "000000000220.jpeg",
+            "coco_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_teddy_bear_34b8013efc2befefd1ea97bedd7ecde4.jpeg",
+            "height": 500,
+            "width": 499,
+            "date_captured": "2022-12-13",
+            "flickr_url": "http://alisec-competition.oss-cn-shanghai.aliyuncs.com/xiaofeng/datasets/robust_coco/handmake/sculpture_teddy_bear_34b8013efc2befefd1ea97bedd7ecde4.jpeg",
+            "id": 220
+        }
+    ],
+    "annotations": [
+        {
+            "segmentation": [],
+            "area": 6020.6472544562275,
+            "iscrowd": 0,
+            "image_id": 201,
+            "bbox": [
+                278.9469011943164,
+                154.4107945353726,
+                106.70455891631585,
+                56.42352412681807
+            ],
+            "category_id": 16,
+            "id": 844
+        },
+        {
+            "segmentation": [],
+            "area": 303082.9046802348,
+            "iscrowd": 0,
+            "image_id": 201,
+            "bbox": [
+                269.56115305100764,
+                59.452782219696445,
+                349.1322975176301,
+                868.103314517701
+            ],
+            "category_id": 1,
+            "id": 845
+        },
+        {
+            "segmentation": [],
+            "area": 653796.5089688452,
+            "iscrowd": 0,
+            "image_id": 201,
+            "bbox": [
+                213.50780253212207,
+                240.44111163021333,
+                944.9019007103462,
+                691.9199850030384
+            ],
+            "category_id": 15,
+            "id": 846
+        },
+        {
+            "segmentation": [],
+            "area": 30190.718691267568,
+            "iscrowd": 0,
+            "image_id": 202,
+            "bbox": [
+                352.5818282954947,
+                208.9681839472991,
+                234.39999491951693,
+                128.7999972083352
+            ],
+            "category_id": 18,
+            "id": 847
+        },
+        {
+            "segmentation": [],
+            "area": 37497.59837452287,
+            "iscrowd": 0,
+            "image_id": 202,
+            "bbox": [
+                55.7818347284613,
+                228.89545402319968,
+                251.99999453804722,
+                148.79999677484693
+            ],
+            "category_id": 18,
+            "id": 848
+        },
+        {
+            "segmentation": [],
+            "area": 15074.999346516373,
+            "iscrowd": 0,
+            "image_id": 203,
+            "bbox": [
+                303.1060725319153,
+                161.84185948859147,
+                111.66666424635693,
+                134.99999707395386
+            ],
+            "category_id": 89,
+            "id": 849
+        },
+        {
+            "segmentation": [],
+            "area": 13493.742878611394,
+            "iscrowd": 0,
+            "image_id": 203,
+            "bbox": [
+                180.6061264533094,
+                138.43276677494123,
+                105.83327977317956,
+                127.499997236512
+            ],
+            "category_id": 89,
+            "id": 850
+        },
+        {
+            "segmentation": [],
+            "area": 16592.004921015523,
+            "iscrowd": 0,
+            "image_id": 203,
+            "bbox": [
+                137.26722402912648,
+                268.43790838222725,
+                124.17218273922283,
+                133.62094919327313
+            ],
+            "category_id": 89,
+            "id": 851
+        },
+        {
+            "segmentation": [],
+            "area": 18909.113729927238,
+            "iscrowd": 0,
+            "image_id": 203,
+            "bbox": [
+                19.772745339666454,
+                191.08901589638606,
+                128.33333055178332,
+                147.34374654367198
+            ],
+            "category_id": 89,
+            "id": 852
+        },
+        {
+            "segmentation": [],
+            "area": 145786.4170328159,
+            "iscrowd": 0,
+            "image_id": 204,
+            "bbox": [
+                104.73459193655347,
+                128.21023281682122,
+                412.9926917638849,
+                352.99999234893124
+            ],
+            "category_id": 24,
+            "id": 853
+        },
+        {
+            "segmentation": [],
+            "area": 744317.6509346985,
+            "iscrowd": 0,
+            "image_id": 205,
+            "bbox": [
+                57.27278196177089,
+                103.84979145028828,
+                917.279980118492,
+                811.4399824125121
+            ],
+            "category_id": 22,
+            "id": 854
+        },
+        {
+            "segmentation": [],
+            "area": 282319.7205617697,
+            "iscrowd": 0,
+            "image_id": 205,
+            "bbox": [
+                1458.3927515933137,
+                360.6606879836714,
+                511.5599889122359,
+                551.8799880383235
+            ],
+            "category_id": 22,
+            "id": 855
+        },
+        {
+            "segmentation": [],
+            "area": 113687.48424386456,
+            "iscrowd": 0,
+            "image_id": 206,
+            "bbox": [
+                424.9697173515295,
+                283.18407635339946,
+                342.6769156210343,
+                331.76289111225486
+            ],
+            "category_id": 72,
+            "id": 856
+        },
+        {
+            "segmentation": [],
+            "area": 105653.32875338485,
+            "iscrowd": 0,
+            "image_id": 206,
+            "bbox": [
+                84.96972472083083,
+                405.49242285181344,
+                377.3333251548538,
+                279.9999939311636
+            ],
+            "category_id": 72,
+            "id": 857
+        },
+        {
+            "segmentation": [],
+            "area": 134469.82223096958,
+            "iscrowd": 0,
+            "image_id": 206,
+            "bbox": [
+                60.96972524101682,
+                127.06308628889747,
+                386.67124005046566,
+                347.76266839348983
+            ],
+            "category_id": 72,
+            "id": 858
+        },
+        {
+            "segmentation": [],
+            "area": 46017.998005173526,
+            "iscrowd": 0,
+            "image_id": 207,
+            "bbox": [
+                344.7329637195205,
+                239.210230410961,
+                172.99999625032615,
+                265.9999942346055
+            ],
+            "category_id": 23,
+            "id": 859
+        },
+        {
+            "segmentation": [],
+            "area": 10799.99953183262,
+            "iscrowd": 0,
+            "image_id": 207,
+            "bbox": [
+                241.73296595198528,
+                194.11931952304585,
+                119.99999739907011,
+                89.99999804930255
+            ],
+            "category_id": 32,
+            "id": 860
+        },
+        {
+            "segmentation": [],
+            "area": 125855.99454428953,
+            "iscrowd": 0,
+            "image_id": 207,
+            "bbox": [
+                132.73296831449665,
+                22.119323251045333,
+                287.99999375776827,
+                436.9999905282803
+            ],
+            "category_id": 23,
+            "id": 861
+        },
+        {
+            "segmentation": [],
+            "area": 593297.434672023,
+            "iscrowd": 0,
+            "image_id": 208,
+            "bbox": [
+                0,
+                0,
+                798.1758974838878,
+                743.3166505557123
+            ],
+            "category_id": 5,
+            "id": 862
+        },
+        {
+            "segmentation": [],
+            "area": 441814.3583539957,
+            "iscrowd": 0,
+            "image_id": 208,
+            "bbox": [
+                1.811156108381884,
+                981.8972051787263,
+                794.5805105582848,
+                556.0347283670096
+            ],
+            "category_id": 5,
+            "id": 863
+        },
+        {
+            "segmentation": [],
+            "area": 46385.47315015605,
+            "iscrowd": 0,
+            "image_id": 208,
+            "bbox": [
+                491.0768800137112,
+                1664.29721923624,
+                305.60788867626337,
+                151.78100719544292
+            ],
+            "category_id": 5,
+            "id": 864
+        },
+        {
+            "segmentation": [],
+            "area": 52918.7792583456,
+            "iscrowd": 0,
+            "image_id": 208,
+            "bbox": [
+                175.20451043245419,
+                1571.168466667581,
+                294.61822254377824,
+                179.61814717853113
+            ],
+            "category_id": 5,
+            "id": 865
+        },
+        {
+            "segmentation": [],
+            "area": 140717.7533667804,
+            "iscrowd": 0,
+            "image_id": 208,
+            "bbox": [
+                32.794054485013966,
+                1761.880331981931,
+                415.1381824214602,
+                338.9660583519145
+            ],
+            "category_id": 5,
+            "id": 866
+        },
+        {
+            "segmentation": [],
+            "area": 64045.39181706425,
+            "iscrowd": 0,
+            "image_id": 209,
+            "bbox": [
+                18.277371917419917,
+                49.405378423799505,
+                198.65701119803686,
+                322.39180198487327
+            ],
+            "category_id": 20,
+            "id": 867
+        },
+        {
+            "segmentation": [],
+            "area": 52181.705004426774,
+            "iscrowd": 0,
+            "image_id": 209,
+            "bbox": [
+                240.80438259808838,
+                50.1048594785254,
+                174.78999621152886,
+                298.53942522704256
+            ],
+            "category_id": 1,
+            "id": 868
+        },
+        {
+            "segmentation": [],
+            "area": 32976.44875501151,
+            "iscrowd": 0,
+            "image_id": 209,
+            "bbox": [
+                440.23437827555966,
+                21.635893670791955,
+                169.3999963283539,
+                194.66617160423138
+            ],
+            "category_id": 20,
+            "id": 869
+        },
+        {
+            "segmentation": [],
+            "area": 18840.29950430051,
+            "iscrowd": 0,
+            "image_id": 209,
+            "bbox": [
+                438.69437830893827,
+                254.00420918256222,
+                163.23999646186843,
+                115.41472624756797
+            ],
+            "category_id": 20,
+            "id": 870
+        },
+        {
+            "segmentation": [],
+            "area": 46776.64541612642,
+            "iscrowd": 0,
+            "image_id": 210,
+            "bbox": [
+                35.599456015511954,
+                120.31535078578972,
+                198.6269487472735,
+                235.49999489567506
+            ],
+            "category_id": 63,
+            "id": 871
+        },
+        {
+            "segmentation": [],
+            "area": 42874.88197644733,
+            "iscrowd": 0,
+            "image_id": 210,
+            "bbox": [
+                263.55080248573177,
+                39.315365874120346,
+                252.72261766385182,
+                169.65193844848315
+            ],
+            "category_id": 63,
+            "id": 872
+        },
+        {
+            "segmentation": [],
+            "area": 32145.502017303883,
+            "iscrowd": 0,
+            "image_id": 210,
+            "bbox": [
+                258.95584580093447,
+                217.26553111530484,
+                241.23522595185847,
+                133.2537646210878
+            ],
+            "category_id": 67,
+            "id": 873
+        },
+        {
+            "segmentation": [],
+            "area": 36831.4054560179,
+            "iscrowd": 0,
+            "image_id": 210,
+            "bbox": [
+                267.02555618357525,
+                682.8874144786557,
+                283.7385752862336,
+                129.80753645803227
+            ],
+            "category_id": 67,
+            "id": 874
+        },
+        {
+            "segmentation": [],
+            "area": 50010.60890836128,
+            "iscrowd": 0,
+            "image_id": 210,
+            "bbox": [
+                250.94320778678474,
+                515.171482417835,
+                284.54387873428976,
+                175.7571068856545
+            ],
+            "category_id": 63,
+            "id": 875
+        },
+        {
+            "segmentation": [],
+            "area": 52445.24772655974,
+            "iscrowd": 0,
+            "image_id": 210,
+            "bbox": [
+                4.099456698256044,
+                588.1789728472673,
+                214.49999535083785,
+                244.4999947006054
+            ],
+            "category_id": 63,
+            "id": 876
+        },
+        {
+            "segmentation": [],
+            "area": 264922.9544967853,
+            "iscrowd": 0,
+            "image_id": 211,
+            "bbox": [
+                291.8078969650291,
+                44.16125186070785,
+                482.12498955022227,
+                549.4901949470276
+            ],
+            "category_id": 18,
+            "id": 877
+        },
+        {
+            "segmentation": [],
+            "area": 154680.96729827253,
+            "iscrowd": 0,
+            "image_id": 211,
+            "bbox": [
+                49.55790221565632,
+                77.28386585631505,
+                321.8124930249021,
+                480.6555700940522
+            ],
+            "category_id": 11,
+            "id": 878
+        },
+        {
+            "segmentation": [],
+            "area": 16642.666008596447,
+            "iscrowd": 0,
+            "image_id": 212,
+            "bbox": [
+                16.363648215995923,
+                107.69602351414025,
+                158.5015844696811,
+                104.99999772418637
+            ],
+            "category_id": 3,
+            "id": 879
+        },
+        {
+            "segmentation": [],
+            "area": 81351.58950621907,
+            "iscrowd": 0,
+            "image_id": 213,
+            "bbox": [
+                13.02390379718198,
+                46.984056395385,
+                334.339927952767,
+                243.3199947261812
+            ],
+            "category_id": 7,
+            "id": 880
+        },
+        {
+            "segmentation": [],
+            "area": 58364.79746995413,
+            "iscrowd": 0,
+            "image_id": 214,
+            "bbox": [
+                309.38182923182944,
+                52.968187328507966,
+                239.1999948154797,
+                243.99999471144255
+            ],
+            "category_id": 1,
+            "id": 881
+        },
+        {
+            "segmentation": [],
+            "area": 78657.08087164446,
+            "iscrowd": 0,
+            "image_id": 214,
+            "bbox": [
+                52.58183479781942,
+                246.9236888354998,
+                505.59998904141537,
+                155.5717614250213
+            ],
+            "category_id": 41,
+            "id": 882
+        },
+        {
+            "segmentation": [],
+            "area": 221212.1654126215,
+            "iscrowd": 0,
+            "image_id": 215,
+            "bbox": [
+                420.3727447949162,
+                174.73638501588562,
+                478.3999896309594,
+                462.4000213362586
+            ],
+            "category_id": 37,
+            "id": 883
+        },
+        {
+            "segmentation": [],
+            "area": 303816.4962762241,
+            "iscrowd": 0,
+            "image_id": 216,
+            "bbox": [
+                844.5196252889514,
+                1885.5569448234373,
+                875.0426489608237,
+                347.2019296854023
+            ],
+            "category_id": 35,
+            "id": 884
+        },
+        {
+            "segmentation": [],
+            "area": 1912463.917096921,
+            "iscrowd": 0,
+            "image_id": 216,
+            "bbox": [
+                782.9318677960339,
+                112.47729248399534,
+                931.9999797994444,
+                2051.999955524099
+            ],
+            "category_id": 1,
+            "id": 885
+        },
+        {
+            "segmentation": [],
+            "area": 164508.48401033855,
+            "iscrowd": 0,
+            "image_id": 217,
+            "bbox": [
+                140.36366883269937,
+                13.13637755926934,
+                380.80665837851404,
+                432.0000199335288
+            ],
+            "category_id": 53,
+            "id": 886
+        },
+        {
+            "segmentation": [],
+            "area": 265792.2211368539,
+            "iscrowd": 0,
+            "image_id": 217,
+            "bbox": [
+                415.5636628679002,
+                171.39092587714305,
+                494.4051504325821,
+                537.6000248061691
+            ],
+            "category_id": 53,
+            "id": 887
+        },
+        {
+            "segmentation": [],
+            "area": 156970.90968801026,
+            "iscrowd": 0,
+            "image_id": 218,
+            "bbox": [
+                14.58406157354742,
+                265.881087682007,
+                365.7375826330135,
+                429.18999069755756
+            ],
+            "category_id": 89,
+            "id": 888
+        },
+        {
+            "segmentation": [],
+            "area": 149014.8190903512,
+            "iscrowd": 0,
+            "image_id": 218,
+            "bbox": [
+                392.00405339318945,
+                426.0492613955139,
+                325.65851287241657,
+                457.579990082221
+            ],
+            "category_id": 87,
+            "id": 889
+        },
+        {
+            "segmentation": [],
+            "area": 150756.52011946435,
+            "iscrowd": 0,
+            "image_id": 219,
+            "bbox": [
+                436.36366241707236,
+                32.360499048224575,
+                468.8054136565541,
+                321.5758942363841
+            ],
+            "category_id": 3,
+            "id": 890
+        },
+        {
+            "segmentation": [],
+            "area": 163583.8948601745,
+            "iscrowd": 0,
+            "image_id": 219,
+            "bbox": [
+                605.9636587410912,
+                358.5909345150052,
+                636.803996088303,
+                256.88264499755275
+            ],
+            "category_id": 3,
+            "id": 891
+        },
+        {
+            "segmentation": [],
+            "area": 158363.23475073307,
+            "iscrowd": 0,
+            "image_id": 219,
+            "bbox": [
+                33.16367115619678,
+                336.19093348141513,
+                495.9999892494898,
+                319.28072214347526
+            ],
+            "category_id": 3,
+            "id": 892
+        },
+        {
+            "segmentation": [],
+            "area": 90701.93868781406,
+            "iscrowd": 0,
+            "image_id": 220,
+            "bbox": [
+                102.50423086965411,
+                2.6773113582061114,
+                275.55197003536017,
+                329.1645444457347
+            ],
+            "category_id": 88,
+            "id": 893
+        },
+        {
+            "segmentation": [],
+            "area": 64908.720960685314,
+            "iscrowd": 0,
+            "image_id": 220,
+            "bbox": [
+                77.52973207490848,
+                311.9176065867394,
+                344.6480833674898,
+                188.33332925131847
+            ],
+            "category_id": 62,
+            "id": 894
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "person",
+            "id": 1,
+            "name": "person"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 2,
+            "name": "bicycle"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 3,
+            "name": "car"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 4,
+            "name": "motorcycle"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 5,
+            "name": "airplane"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 6,
+            "name": "bus"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 7,
+            "name": "train"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 8,
+            "name": "truck"
+        },
+        {
+            "supercategory": "vehicle",
+            "id": 9,
+            "name": "boat"
+        },
+        {
+            "supercategory": "outdoor",
+            "id": 10,
+            "name": "traffic light"
+        },
+        {
+            "supercategory": "outdoor",
+            "id": 11,
+            "name": "fire hydrant"
+        },
+        {
+            "supercategory": "outdoor",
+            "id": 13,
+            "name": "stop sign"
+        },
+        {
+            "supercategory": "outdoor",
+            "id": 14,
+            "name": "parking meter"
+        },
+        {
+            "supercategory": "outdoor",
+            "id": 15,
+            "name": "bench"
+        },
+        {
+            "supercategory": "animal",
+            "id": 16,
+            "name": "bird"
+        },
+        {
+            "supercategory": "animal",
+            "id": 17,
+            "name": "cat"
+        },
+        {
+            "supercategory": "animal",
+            "id": 18,
+            "name": "dog"
+        },
+        {
+            "supercategory": "animal",
+            "id": 19,
+            "name": "horse"
+        },
+        {
+            "supercategory": "animal",
+            "id": 20,
+            "name": "sheep"
+        },
+        {
+            "supercategory": "animal",
+            "id": 21,
+            "name": "cow"
+        },
+        {
+            "supercategory": "animal",
+            "id": 22,
+            "name": "elephant"
+        },
+        {
+            "supercategory": "animal",
+            "id": 23,
+            "name": "bear"
+        },
+        {
+            "supercategory": "animal",
+            "id": 24,
+            "name": "zebra"
+        },
+        {
+            "supercategory": "animal",
+            "id": 25,
+            "name": "giraffe"
+        },
+        {
+            "supercategory": "accessory",
+            "id": 27,
+            "name": "backpack"
+        },
+        {
+            "supercategory": "accessory",
+            "id": 28,
+            "name": "umbrella"
+        },
+        {
+            "supercategory": "accessory",
+            "id": 31,
+            "name": "handbag"
+        },
+        {
+            "supercategory": "accessory",
+            "id": 32,
+            "name": "tie"
+        },
+        {
+            "supercategory": "accessory",
+            "id": 33,
+            "name": "suitcase"
+        },
+        {
+            "supercategory": "sports",
+            "id": 34,
+            "name": "frisbee"
+        },
+        {
+            "supercategory": "sports",
+            "id": 35,
+            "name": "skis"
+        },
+        {
+            "supercategory": "sports",
+            "id": 36,
+            "name": "snowboard"
+        },
+        {
+            "supercategory": "sports",
+            "id": 37,
+            "name": "sports ball"
+        },
+        {
+            "supercategory": "sports",
+            "id": 38,
+            "name": "kite"
+        },
+        {
+            "supercategory": "sports",
+            "id": 39,
+            "name": "baseball bat"
+        },
+        {
+            "supercategory": "sports",
+            "id": 40,
+            "name": "baseball glove"
+        },
+        {
+            "supercategory": "sports",
+            "id": 41,
+            "name": "skateboard"
+        },
+        {
+            "supercategory": "sports",
+            "id": 42,
+            "name": "surfboard"
+        },
+        {
+            "supercategory": "sports",
+            "id": 43,
+            "name": "tennis racket"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 44,
+            "name": "bottle"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 46,
+            "name": "wine glass"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 47,
+            "name": "cup"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 48,
+            "name": "fork"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 49,
+            "name": "knife"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 50,
+            "name": "spoon"
+        },
+        {
+            "supercategory": "kitchen",
+            "id": 51,
+            "name": "bowl"
+        },
+        {
+            "supercategory": "food",
+            "id": 52,
+            "name": "banana"
+        },
+        {
+            "supercategory": "food",
+            "id": 53,
+            "name": "apple"
+        },
+        {
+            "supercategory": "food",
+            "id": 54,
+            "name": "sandwich"
+        },
+        {
+            "supercategory": "food",
+            "id": 55,
+            "name": "orange"
+        },
+        {
+            "supercategory": "food",
+            "id": 56,
+            "name": "broccoli"
+        },
+        {
+            "supercategory": "food",
+            "id": 57,
+            "name": "carrot"
+        },
+        {
+            "supercategory": "food",
+            "id": 58,
+            "name": "hot dog"
+        },
+        {
+            "supercategory": "food",
+            "id": 59,
+            "name": "pizza"
+        },
+        {
+            "supercategory": "food",
+            "id": 60,
+            "name": "donut"
+        },
+        {
+            "supercategory": "food",
+            "id": 61,
+            "name": "cake"
+        },
+        {
+            "supercategory": "furniture",
+            "id": 62,
+            "name": "chair"
+        },
+        {
+            "supercategory": "furniture",
+            "id": 63,
+            "name": "couch"
+        },
+        {
+            "supercategory": "furniture",
+            "id": 64,
+            "name": "potted plant"
+        },
+        {
+            "supercategory": "furniture",
+            "id": 65,
+            "name": "bed"
+        },
+        {
+            "supercategory": "furniture",
+            "id": 67,
+            "name": "dining table"
+        },
+        {
+            "supercategory": "furniture",
+            "id": 70,
+            "name": "toilet"
+        },
+        {
+            "supercategory": "electronic",
+            "id": 72,
+            "name": "tv"
+        },
+        {
+            "supercategory": "electronic",
+            "id": 73,
+            "name": "laptop"
+        },
+        {
+            "supercategory": "electronic",
+            "id": 74,
+            "name": "mouse"
+        },
+        {
+            "supercategory": "electronic",
+            "id": 75,
+            "name": "remote"
+        },
+        {
+            "supercategory": "electronic",
+            "id": 76,
+            "name": "keyboard"
+        },
+        {
+            "supercategory": "electronic",
+            "id": 77,
+            "name": "cell phone"
+        },
+        {
+            "supercategory": "appliance",
+            "id": 78,
+            "name": "microwave"
+        },
+        {
+            "supercategory": "appliance",
+            "id": 79,
+            "name": "oven"
+        },
+        {
+            "supercategory": "appliance",
+            "id": 80,
+            "name": "toaster"
+        },
+        {
+            "supercategory": "appliance",
+            "id": 81,
+            "name": "sink"
+        },
+        {
+            "supercategory": "appliance",
+            "id": 82,
+            "name": "refrigerator"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 84,
+            "name": "book"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 85,
+            "name": "clock"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 86,
+            "name": "vase"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 87,
+            "name": "scissors"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 88,
+            "name": "teddy bear"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 89,
+            "name": "hair drier"
+        },
+        {
+            "supercategory": "indoor",
+            "id": 90,
+            "name": "toothbrush"
+        }
+    ]
+}
