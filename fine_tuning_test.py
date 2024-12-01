@@ -341,7 +341,7 @@ def main():
                             ref_img = Image.fromarray(ref_img.astype(np.uint8))
                             ref_img.save(os.path.join(sample_path, filename[:-4] + '_' + str(opt.seed) + "_ref.png"))
 
-    print(f"The test results are saved to the folder: \n{outpath} \n"
+    print(f"\nThe test results are saved to the folder: \n{outpath} \n"
           f"-------------------------------------------------------------------------------------------------------------------\n\n\n")
 
 
