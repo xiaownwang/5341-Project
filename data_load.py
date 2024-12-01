@@ -3,7 +3,7 @@ import json
 from PIL import Image
 import matplotlib.pyplot as plt
 import torchvision.transforms as T
-from ldm.data.open_images import OpenImageDataset
+from ldm.data.open_images import OpenImageDataset, AugmentedOpenImageDataset
 
 def process_dataset(dataset_name, coco_images_path, coco_annotations_file, output_images_path, output_annotations_file, num_images):
 
@@ -89,6 +89,8 @@ def show_multiple_processed_images(dataset, indices=None, max_samples=4):
     plt.show()
 
 
+USE_AUGMENTED_DATASET = True  # Set to True to use AugmentedOpenImageDataset
+
 if __name__ == "__main__":
     datasets = ["cartoon", "handmake", "painting", "sketch", "tattoo", "weather"]
     num_images_to_process = 200  # Set the number of images to process
@@ -102,12 +104,33 @@ if __name__ == "__main__":
         process_dataset(dataset, coco_images_path, coco_annotations_file, output_images_path, output_annotations_file,
                         num_images_to_process)
 
-    # show samples after data preprocessing in open_images.py
-    sample_show = OpenImageDataset(
-        state='train',
-        annotation_file='/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/cartoon/annotations.json',
-        coco_root='/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/cartoon/images',
-        image_size=224
-    )
-    show_multiple_processed_images(sample_show, indices=[0, 1])
-    # show_multiple_processed_images(dataset, max_samples=5)
+    # # show samples after data preprocessing in open_images.py
+    # sample_show = OpenImageDataset(
+    #     state='train',
+    #     annotation_file='/Users/amywang/Desktop/CSI5137 - Learning Based Comp. Vision/5341-Project/dataset/cartoon/annotations.json',
+    #     coco_root='/Users/amywang/Desktop/CSI5137 - Learning Based Comp. Vision/5341-Project/dataset/cartoon/images',
+    #     image_size=224
+    # )
+    # show_multiple_processed_images(sample_show, indices=[0, 1])
+    # # show_multiple_processed_images(dataset, max_samples=5)
+
+    if USE_AUGMENTED_DATASET:
+        sample_show = AugmentedOpenImageDataset(
+            state='train',
+            annotation_file='/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/cartoon/annotations.json',
+            coco_root='/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/cartoon/images',
+            image_size=224,
+            style_aug_prob=0.7  # Probability of applying style augmentations
+        )
+        print("Using AugmentedOpenImageDataset with style augmentations.")
+    else:
+        sample_show = OpenImageDataset(
+            state='train',
+            annotation_file='/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/cartoon/annotations.json',
+            coco_root='/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/cartoon/images',
+            image_size=224
+        )
+        print("Using standard OpenImageDataset.")
+    # Display samples to verify the dataset functionality
+    show_multiple_processed_images(sample_show, indices=[0, 1, 2, 3])
+
