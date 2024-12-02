@@ -207,10 +207,13 @@ def main():
     valid_image_extensions = ['.png', '.jpg', '.jpeg']
     image_files = [f for f in os.listdir(opt.image_folder) if
                    any(f.lower().endswith(ext) for ext in valid_image_extensions)]
+    image_files.sort()
     mask_files = [f for f in os.listdir(opt.mask_folder) if
                   any(f.lower().endswith(ext) for ext in valid_image_extensions)]
+    mask_files.sort()
     reference_files = [f for f in os.listdir(opt.reference_folder) if
                        any(f.lower().endswith(ext) for ext in valid_image_extensions)]
+    reference_files.sort()
 
     for image_file, mask_file, reference_file in zip(image_files, mask_files, reference_files):
         if (not any(image_file.lower().endswith(ext) for ext in valid_image_extensions)) or \
