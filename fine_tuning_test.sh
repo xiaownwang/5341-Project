@@ -1,10 +1,10 @@
 python -u fine_tuning_test.py \
---plms --outdir results \
+--plms --outdir results/cartoon \
 --config configs/v1.yaml \
 --ckpt checkpoints/model.ckpt \
---image_folder dataset/testdata/image \
---mask_folder dataset/testdata/mask \
---reference_folder dataset/testdata/reference \
+--image_folder dataset/testdata/cartoon/image \
+--mask_folder dataset/testdata/cartoon/mask \
+--reference_folder dataset/testdata/cartoon/reference \
 --seed 321 \
 --scale 5
 
