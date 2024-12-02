@@ -1,16 +1,19 @@
 import os
+import numpy as np
 import json
-from PIL import Image
+from PIL import Image, ImageDraw
 import matplotlib.pyplot as plt
 import torchvision.transforms as T
+import cv2
+import matplotlib.pyplot as plt
+from pycocotools.coco import COCO
 from ldm.data.open_images import OpenImageDataset, AugmentedOpenImageDataset
 
 
-def process_dataset(dataset_name, coco_images_path, coco_annotations_file, train_images_path, train_annotations_file,
-                    num_train_images, test_images_path, test_annotations_file, num_test_images):
+def load_train_data(dataset_name, coco_images_path, coco_annotations_file,
+                    train_images_path, train_annotations_file, num_train_images):
 
     os.makedirs(train_images_path, exist_ok=True)
-    os.makedirs(test_images_path, exist_ok=True)
 
     with open(coco_annotations_file, "r") as f:
         coco_data = json.load(f)
@@ -41,38 +44,67 @@ def process_dataset(dataset_name, coco_images_path, coco_annotations_file, train
     with open(train_annotations_file, "w") as f:
         json.dump(output_coco_data_train, f, indent=4)
 
+    print(f"{dataset_name} training data processed. The first {num_train_images} images saved to {train_images_path} and annotations saved to {train_annotations_file}.")
 
-    ## Testing Dataset
-    test_images = coco_data["images"][num_train_images:num_train_images+num_test_images]
-    test_ann_id = {img["id"]: img["file_name"] for img in test_images}
-    test_annotations = [ann for ann in coco_data["annotations"] if ann["image_id"] in test_ann_id]
 
-    for img in test_images:
-        image_path = os.path.join(coco_images_path, img["file_name"])
-        test_image_path = os.path.join(test_images_path, img["file_name"])
+def load_test_data(dataset_name, coco_annotations_file, test_image_selected, test_reference_selected, test_image_path, test_mask_path, test_reference_path):
 
-        test_image_path = os.path.splitext(test_image_path)[0] + ".jpeg"
+    os.makedirs(test_image_path, exist_ok=True)
+    os.makedirs(test_mask_path, exist_ok=True)
+    os.makedirs(test_reference_path, exist_ok=True)
 
-        with Image.open(image_path) as image:
-            if image.mode in ("RGBA", "P", "I"):
-                image = image.convert("RGB")
-            image.save(test_image_path, format="JPEG")
+    coco = COCO(coco_annotations_file)
 
-    output_coco_data_test = {
-        "images": test_images,
-        "annotations": test_annotations,
-        "categories": coco_data["categories"]
-    }
+    image_files = os.listdir(test_image_selected)
+    image_files = [f for f in image_files if f.endswith(('.jpg', '.png', '.jpeg'))]
 
-    # Save the new annotations file for test
-    with open(test_annotations_file, "w") as f:
-        json.dump(output_coco_data_test, f, indent=4)
+    image_ids = []
+    for image_file in image_files:
+        image_id_str = image_file.lstrip('0').rstrip('.jpeg')
+        if image_id_str.isdigit():
+            image_ids.append(int(image_id_str))
 
-    print(
-        f"{dataset_name} dataset processed.\n"
-        f"The first {num_train_images} images saved to {train_images_path} and annotations saved to {train_annotations_file}.\n"
-        f"The {num_train_images}-{num_train_images+num_test_images} images saved to {test_images_path} and annotations saved to {test_annotations_file}.\n"
-        f"------------------------------------------------------------------------------------------------------------------------------------------------------")
+    for idx, image_id in enumerate(image_ids):
+        image_info = coco.loadImgs(image_id)[0]
+        image_path = os.path.join(test_image_selected, image_info["file_name"])
+
+        image = Image.open(image_path).convert('RGB')
+        image = np.array(image)
+        image_resized = cv2.resize(image, (512, 512))
+
+        annotations = coco.loadAnns(coco.getAnnIds(imgIds=image_id))
+        mask = np.zeros((image_info['height'], image_info['width']), dtype=np.uint8)
+
+        for ann in annotations:
+            bbox = ann['bbox']
+            x, y, w, h = map(int, bbox)
+            mask[y:y + h, x:x + w] = 1
+
+        mask = mask * 255
+        mask_resized = cv2.resize(mask, (512, 512))
+
+        img_filename = f"img_{idx + 1}.png"
+        mask_filename = f"mask_{idx + 1}.png"
+
+        cv2.imwrite(os.path.join(test_image_path, img_filename), image_resized)
+        cv2.imwrite(os.path.join(test_mask_path, mask_filename), mask_resized)
+
+
+    reference_files = os.listdir(test_reference_selected)
+    reference_files = [f for f in reference_files if f.endswith(('.jpg', '.png', '.jpeg'))]
+
+    for idx, reference_file in enumerate(reference_files):
+        reference_image_path = os.path.join(test_reference_selected, reference_file)
+
+        reference_image = cv2.imread(reference_image_path)
+        reference_image = cv2.cvtColor(reference_image, cv2.COLOR_BGR2RGB)
+        reference_image_resized = cv2.resize(reference_image, (512, 512))
+
+        ref_filename = f"ref_{idx + 1}.png"
+        cv2.imwrite(os.path.join(test_reference_path, ref_filename),
+                    cv2.cvtColor(reference_image_resized, cv2.COLOR_RGB2BGR))
+
+    print(f"{dataset_name} testing data processed. The results saved to dataset/testdata/{dataset_name}\n")
 
 
 def show_multiple_processed_images(dataset, indices=None, max_samples=4):
@@ -127,18 +159,23 @@ def show_multiple_processed_images(dataset, indices=None, max_samples=4):
 if __name__ == "__main__":
     datasets = ["cartoon", "handmake", "painting", "sketch", "tattoo", "weather"]
     num_train_images = 200
-    num_test_images = 20
 
     for dataset in datasets:
         coco_images_path = f"/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/ood_coco/{dataset}/val2017"
         coco_annotations_file = f"/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/ood_coco/{dataset}/annotations/instances_val2017.json"
         train_images_path = f"/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/traindata/{dataset}/images"
         train_annotations_file = f"/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/traindata/{dataset}/annotations.json"
-        test_images_path = f"/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/testdata/{dataset}/images"
-        test_annotations_file = f"/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/testdata/{dataset}/annotations.json"
 
-        process_dataset(dataset, coco_images_path, coco_annotations_file, train_images_path, train_annotations_file,
-                        num_train_images, test_images_path, test_annotations_file, num_test_images)
+        test_image_selected = f"/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/testdata_selected/{dataset}/image"
+        test_reference_selected = f"/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/testdata_selected/{dataset}/reference"
+
+        test_image_path = f"/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/testdata/{dataset}/image"
+        test_mask_path = f"/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/testdata/{dataset}/mask"
+        test_reference_path = f"/Users/xiaowenwang/PycharmProjects/Paint-by-Example-main/dataset/testdata/{dataset}/reference"
+
+        load_train_data(dataset, coco_images_path, coco_annotations_file,
+                        train_images_path, train_annotations_file, num_train_images)
+        load_test_data(dataset, coco_annotations_file, test_image_selected, test_reference_selected, test_image_path, test_mask_path, test_reference_path)
 
     # show samples after data preprocessing in open_images.py
     sample_show = OpenImageDataset(
